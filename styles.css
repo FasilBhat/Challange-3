@@ -1,4 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+    padding: 15px;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 black;
+}
+
+.stats-card {
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.stats1 {
+    padding: 3px 10px;
+    width: fit-content;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 2px;
+}
+
+.stats1 p {
+    font-weight: 700;
+}
+
+.intro-card {
+    margin-top: 10px;
+}
+
+.intro-card p {
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+
+.discription-card {
+    max-width: 310px;
+}
+
+.discription-card p {
+    color: hsl(0, 0%, 50%);
+}
+
+.author-card {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .attribution {
+    margin-top: 10px;
     font-size: 11px;
     text-align: center;
 }
